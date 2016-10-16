@@ -1,8 +1,8 @@
 <?php
 	
 /*
-Plugin Name: Woocommerce New User Notification
-Description: Changes the new user notification to use the built in New Account email provided in Woocommerce
+Plugin Name: WooCommerce New User Notification
+Description: Extends Woocommerce and changes the New User Notification to use the built in New Account Email provided in Woocommerce
 */
  
 // Redefine user notification function
