@@ -8,7 +8,7 @@ Description: Extends Woocommerce and changes the New User Notification to use th
 // Redefine user notification function
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
    
-   if ( !function_exists('wp_new_user_notification') ) {
+   if ( ! function_exists('wp_new_user_notification') ) {
 	
 	    function wp_new_user_notification( $user_id, $plaintext_pass = '' ) {
 		    
